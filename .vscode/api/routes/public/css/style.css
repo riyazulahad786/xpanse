@@ -1,0 +1,51 @@
+/* setup custom properties */
+:root {
+    --primary-color: #faeee7;
+    --secondary-color: #fffffe;
+    --text-color: #33272a;
+    --button-color: #ffc6c7;
+    --link-color: #c3f0ca;
+    --highlight-color: #ff8ba7;
+  }
+  
+  body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .container {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+  }
+  
+  .box {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+  }
+  
+  .list-container,
+  .chart-container {
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: var(--button-color);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .error {
+    font-size: 10em;
+    text-shadow: 7px 7px var(--link-color);
+    color: var(--highlight-color);
+  }
